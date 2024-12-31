@@ -1,0 +1,71 @@
+<html>
+
+	<head>
+		<title>
+			هلال و فانوسة على ابواب الجنة
+		</title>
+		
+		
+		
+		<style>
+        /* تنسيق الأزرار */
+        button {
+            padding: 15px 30px; /* زيادة الحشوة لتكبير الأزرار */
+            margin: 10px;      /* مسافة بين الأزرار */
+            font-size: 20px;   /* حجم الخط */
+            cursor: pointer;   /* تغيير المؤشر عند المرور على الزر */
+            border: none;      /* إزالة الحدود */
+            border-radius: 8px; /* جعل الزوايا دائرية */
+            background-color: #007BFF; /* لون خلفية الزر */
+            color: white;      /* لون النص */
+            transition: background-color 0.3s ease; /* تأثير عند المرور */
+        }
+
+        button:hover {
+            background-color: #0056b3; /* تغيير اللون عند المرور بالماوس */
+        }
+    </style>
+	
+	<style>
+		body
+		{
+				background-image : url("الصورة المعتمدة.jpeg");
+				background-repeat : no-repeat;
+				background-size : 100% 100%;
+				background-position : top right;
+				background-attachment : fixed;
+		}
+		</style>
+		
+	</head>
+	
+	<body>
+	
+
+	
+
+
+
+<iframe style="max-width:100%" src="https://wordwall.net/ar/embed/5eea2c2a8b814fcea02e74c38c88a951?themeId=21&templateId=69&fontStackId=0" width="835" height="700" frameborder="0" allowfullscreen></iframe>	
+ 
+ 
+   <button onclick="playAudio()">تشغيل الانشودة</button>
+    <button onclick="stopAudio()">إيقاف الانشودة</button>
+    
+    <audio id="audioPlayer" src="الانشودة المعتمدة.mp3"></audio>
+
+    <script>
+        const audio = document.getElementById('audioPlayer');
+
+        function playAudio() {
+            audio.play();
+        }
+
+        function stopAudio() {
+            audio.pause();
+            audio.currentTime = 0; // إعادة الصوت إلى البداية
+        }
+    </script>
+	</body>
+
+</html>
